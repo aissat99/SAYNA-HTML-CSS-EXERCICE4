@@ -43,7 +43,7 @@ footer{
 	width: 80%;
 }
 
-/*positions des colonnes de la logne du logo*/
+/*positions des colonnes de la ligne du logo*/
 footer .left{
 	grid-column: 1;
 	grid-row: 1;
