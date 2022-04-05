@@ -1,0 +1,16 @@
+/*Far from Home Coming font face*/
+@font-face {
+  font-family: "FarFromHome";
+  src: url("../fonts/TypoFarFromHomecoming.woff2") format("woff2");
+}
+/*general styles*/
+*{
+  box-sizing: border-box;
+  font-family: montserrat, sans-serif; 
+  font-size: medium;
+  margin: 0;
+}
+
+.rouge{
+  background-color: #B11313;
+}

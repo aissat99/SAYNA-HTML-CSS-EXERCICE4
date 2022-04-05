@@ -1,0 +1,106 @@
+/*styles du footer*/
+footer{
+	background-color: black;
+	width: 100%;
+	height: fit-content;
+	padding: 4em 0 0.5em 0;
+/*polices*/
+	color: white;
+}
+
+.copyright, .copyright small{
+	display: flex;
+	justify-content: center;
+	font-size: small;
+	font-weight: normal;
+	margin: 1em 0;
+}
+
+.socialMedia{
+	width: 20%;
+	margin: 6em 40% 2em 40%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.socialMediaIcon{
+	padding: 2%;
+	border-radius: 50%;
+}
+
+.socialMediaIcon a{
+	display: flex;
+	align-content: center;
+	width: 100%;
+	height: fit-content;
+}
+
+.gridLine{
+	display: grid;
+	grid-template-columns: 4fr 3fr 3fr;
+	column-gap: 1em;
+	margin: 0 13% 0 7%;
+	width: 80%;
+}
+
+/*positions des colonnes de la logne du logo*/
+footer .left{
+	grid-column: 1;
+	grid-row: 1;
+	display: flex;
+	align-self: center;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+footer .logo{
+	grid-column: 2;
+	grid-row: 1;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 80%;
+	padding: 0 2em;
+	margin-top: 0.5em;
+}
+
+footer .right{
+	grid-column: 3;
+	grid-row: 1;
+	display: flex;
+	align-self: center;
+	width: 100%;
+	/*les elements n'etant pas decalles, besoin d'espacer un peu*/
+	margin-left: 0.5em;
+}
+
+footer .flex1{
+	flex-grow: 1;
+}
+
+footer .flex2{
+	flex-grow: 2;
+}
+
+/*polices*/
+footer div, footer select{
+	font-size: smaller;
+	font-weight: normal;
+}
+
+footer select{
+	/*pour faire adapter la couleur de select selon notre preference, on enleve la couleur de la box*/
+	background-color: transparent;
+	color: white;
+	border: none;
+	width: 100%;
+	font-family: inherit;
+	font-size: inherit;
+	cursor: inherit;
+	line-height: inherit;
+}
+
+footer .langue{
+	border-radius: 10px;
+	padding: 1% 3%;
+}
